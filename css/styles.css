@@ -1,0 +1,33 @@
+/* UNIVERSAL STYLES
+html {
+  background-color:;
+  font-family:;
+  color:;
+} */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
+}
+
+body{
+  background-image: url("tile.jpg");
+}
+
+header{
+  background-color: white;
+}
+
+article, footer{
+  background-color: black;
+  color: white;
+}
+
+figure{
+  background-color: white;
+}
+
+.contact {
+  background-color: white;
+}

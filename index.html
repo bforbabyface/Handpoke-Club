@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>⤠H a n d p o k e⤟</title>
+
+    <!-- STYLESHEET -->
+<link rel="stylesheet" href="css/styles.css">
+
+<link rel="icon" href="images/favicon.ico">
+
+  </head>
+  <body>
+
+<!-- NAVIGATION -->
+  <header>
+<nav>
+  <ul class="nav-bar">
+    <li><a href="#navigation">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#booking">Booking</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+  </header>
+
+
+<!-- ABOUT -->
+<main>
+<article>
+  <div class="dark">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+  sed do eiusmod tempor incididunt ut labore et dolore magna
+  aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+  ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  Duis aute irure dolor in reprehenderit in voluptate velit
+  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+  occaecat cupidatat non proident, sunt in culpa qui officia
+  deserunt mollit anim id est laborum.</p>
+  </div>
+</article>
+
+<!-- GALLERY -->
+
+<figure>
+  <img src="images/one.jpg" alt="woman with face tattoos">
+  <img src="images/two.jpg" alt="woman with face tattoos">
+  <img src="images/seven.jpg" alt="woman with face tattoos">
+  <img src="images/three.png" alt="traditional handpoke designs">
+  <img src="images/six.jpg" alt="traditional handpoke designs">
+  <img src="images/four.png" alt="traditional handpoke designs">
+</figure>
+
+<!-- BOOKING -->
+
+<article>
+  <form action="story.html" method="GET">
+  <label for="animal-1">Animal:</label>
+  <input id="animal-1" type="text" name="animal-1">
+  <br>
+  <label for="animal-2">Another Animal:</label>
+  <input id="animal-2" type="text" name="animal-2" required>
+  <br>
+  <label for="animal-3">One More Animal:</label>
+  <input id="animal-3" type="text" name="animal-3" required>
+  <br>
+  <label for="adj-1">Adjective:</label>
+  <input id="adj-1" type="text" name="adj-1" required>
+  <br>
+  <label for="verb-1">Verb (ends in -ing):</label>
+  <input id="verb-1" type="text" name="verb-1" required>
+  <br>
+  <label for="num-1">Number:</label>
+  <input id="num-1" type="number" name="num-1" min="0" max="100" required>
+  <br>
+  <span>Yes or No:</span>
+  <input id="yes" type="radio" name="answer" required>
+  <label for="yes">Yes</label>
+  <input id="no" type="radio" name="answer" required>
+  <label for="no">No</label>
+  <br>
+  <label for="speed">Relative speed (ends in -er):</label>
+  <select id="speed" name="speed" required>
+  <option value="slower">Slower</option>
+  <option value="mediumer">Mediumer</option>
+  <option value="quicker">Quicker</option>
+  <option value="faster">Faster</option>
+  <option value="rapider">Rapider</option>
+  </select>
+   <br>
+   <label for="quote">Motivational Quote:</label>
+   <input id="quote" type="text" name="quote" list="quote-choices" required>
+  <datalist id="quote-choices">
+  <option value="Winner gets ice cream!"></option>
+  <option value="Life is like a box of chocolates, you never know what you're gonna get!"></option>
+  <option value="Don't hate the player hate the game!"></option>
+  <option value="Take the road less traveled!"></option>
+  <option value="Beauty is in the eye of the beholder!"></option>
+  <option value="Tough times don't last, tough people do!"></option>
+  </datalist>
+  <br>
+  <label for="message">Meaningful Message:</label>
+  <textarea id="message" name="message" rows="8" cols="40" required minlength="3" maxlenth="400">
+  Your message here</textarea><br>
+<br><input type="submit" value="Form My Story!">
+</article>
+<!-- CONTACT -->
+
+<section class="contact" id="contact">
+<p>11333 Calle Falsa <br> Barcelona, Spain <br> +34 567 77 555</p>
+<img src="images/map.gif" alt="Barcelona-map">
+</section>
+</main>
+<footer>
+  <p>&copy Fatima Aleshaiker 2020</p>
+</footer>
+  </body>
+</html>
