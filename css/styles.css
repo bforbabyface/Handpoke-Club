@@ -1,33 +1,33 @@
-/* UNIVERSAL STYLES
-html {
-  background-color:;
-  font-family:;
-  color:;
-} */
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin:0;
+header {
+  background-color: skyBlue;
 }
 
-body{
-  background-image: url("tile.jpg");
+
+.container{
+  background-color: red;
 }
 
-header{
-  background-color: white;
+.row{
+  background-color: blue;
 }
 
-article, footer{
-  background-color: black;
-  color: white;
+.col{
+  background-color: yellow;
 }
 
-figure{
-  background-color: white;
+.carousel-control-next-icon{
+  background-color: pink;
 }
 
-.contact {
-  background-color: white;
+#jumbo_1{
+  margin-bottom: 0;
+}
+
+#jumbo_2{
+  padding: 5%;
+  margin: 0;
+}
+
+#galleryCarousel{
+  margin: 7% 0;
 }
